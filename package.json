@@ -1,0 +1,22 @@
+{
+    "name": "chatbot-widget",
+    "version": "1.0.0",
+    "description": "A sophisticated chatbot widget",
+    "main": "dist/widget.bundle.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "watch": "webpack --watch"
+    },
+    "dependencies": {
+        "@iconify-icons/mdi": "^1.2.48",
+        "@iconify/iconify": "^3.1.1",
+        "@iconify/icons-mdi": "^1.2.48"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.10",
+        "@babel/preset-env": "^7.13.12",
+        "babel-loader": "^8.2.2",
+        "webpack": "^5.24.3",
+        "webpack-cli": "^4.5.0"
+    }
+}
